@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using the CSS `calc()` function. The `bug.css` file showcases code that produces unexpected results due to operator precedence and unit inconsistencies. The `bugSolution.css` file provides a corrected version that addresses these issues.
