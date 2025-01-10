@@ -1,0 +1,9 @@
+To avoid these issues, use parentheses to explicitly define the order of operations within the `calc()` function and ensure that all units are consistent.  For instance, convert all values to the same unit (pixels, for example), or be sure that using percentages and pixels, for example, is consistent across all browsers and use cases.  Here's a corrected version:
+
+```css
+/* Solution: Explicitly define order of operations and ensure unit consistency */
+width: calc((50% - 10px));
+/* Or, convert to a single unit */
+width: calc((0.5 * 100vw) - 10px); 
+```
+The solution also shows how to convert all values to pixels which should avoid most cross-browser inconsistencies.
